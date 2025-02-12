@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Detection and Expression Recognition</title>
+    <style>
+        #container {
+            display: flex;
+            justify-content: center;
+        }
+        canvas {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <h1>LOOKS LIKE YOU ARE </h1>
+    <div id="expressions"></div>
+    <div id="container">
+        <video id="video-feed" height="560" width="720" autoplay></video>
+        <canvas id="canvas"></canvas>
+    </div>
+    <button><a href="music.html">capture</a></button>
+    <script src="./face-api.min.js"></script> 
+    <script src="./scripts.js">
+    </script> 
+   
+</body>
+</html>

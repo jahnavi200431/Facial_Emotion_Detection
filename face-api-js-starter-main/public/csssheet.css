@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(22, 21, 21);
+}
+#nav {
+    margin-left: 1px;
+    height:200px;
+    display: flex;
+
+ }
+ #song1,#song2,#song3,#song4{
+   color: white;
+   margin:50px;
+   height: 50px;
+   display: flex; 
+   margin-right: 100px;
+   
+ }
+ #song1:hover, #song2:hover, #song3:hover, #song4:hover {
+   background-color: rgba(128, 128, 128, 0.5); 
+  
+}
+#d1,#d2,#d3,#d4{
+   margin-left: 150px;
+color: aliceblue;
+   font-size: larger;
+   border-radius: 20%;
+}
+ #a1,#a2,#a3,#a4{
+   margin-top: 20px;
+   margin-left: 100px;
+   font-size: larger;
+ }
+ #content21,#content22,#content23,#content24{
+  background-color: transparent;
+  display: flex;
+ }
+ #c1{
+   margin-left: 2%;
+   margin-top: 50px;
+   background-color: bisque;
+   margin-bottom: 50px;
+  width: 150px;
+  height:128px;
+  border-radius: 20%;
+ }
+ #c2{
+   background-color: blueviolet;
+   margin-left: 40%;
+   border-radius: 20%;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   width: 150px;
+  height:128px;
+ }
+ #c1:hover,#c2:hover{
+    opacity: 0.5;
+ }
+ #si1{
+background-image: url('https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_believe/music/3616843813928/1642532706/srch_believe_A10320WT042317673D.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 20%;
+ }
+ #si2{
+   background-image: url('https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_believe/20230913093848851/3617227654106/1694593215737/resources/3617227654106.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 20%;
+
+}
+#si3{
+   background-image: url('https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a68f64cde5d91b5ec2155f/COLLECTION_297775250804526.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 20%;
+
+}
+#si4{
+   background-image: url('https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_believe/20230913093848851/3617227654106/1694593215737/resources/3617227654106.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 20%;
+
+}
+ #content{
+    height: 1000px;
+    background-image: url('https://t4.ftcdn.net/jpg/04/10/47/21/360_F_410472146_DK9Y22vyfaaMqWWIhAy9OFXQGpH7czzf.webp');
+    display:flex;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+
+ #content1 {
+    height: 900px;
+    width: 1200px;
+    border: 0.5px solid aliceblue; 
+    border-radius:5%;
+    padding: 20px; 
+    margin:2px; 
+}
+ #content2{
+    height: 900px;
+    width: 1200px;
+    border: 0.5px solid aliceblue; 
+    border-radius:5%;
+    padding: 20px; 
+   
+    
+ }
+ #form {
+    display: flex;
+    margin-top: 10px;
+
+}
+ P{
+    
+    color: rgba(239, 239, 238, 0.64);
+    font-family: 'Times New Roman', Times, serif;
+     font-size: 50px;
+    
+ }
+
+ button{
+    height:45px;
+    width:70px;
+    color: aliceblue;
+    background-color: transparent ;
+}
+ input{
+    
+    height:40px;
+    width:500px ;
+    background-color: transparent;
+    color: aliceblue;
+    
+ }
+ 
+ video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    z-index: -1; 
+    opacity: 0.5;
+ }
+ #img{
+    background-image: url('');
+    height:200px;
+    width:400px;
+    background-size: cover;
+ }
+ #icon{
+    background-color:black;
+   padding-left: 50%;
+ }
+ #op{
+    padding-left: 5%;
+ }
