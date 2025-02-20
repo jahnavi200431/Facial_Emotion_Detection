@@ -1,3 +1,4 @@
+FACIAL EMOTION DETECTOR
 -Developed a real-time facial emotion detection system using JavaScript and an external API for emotion classification
 -Integrated a facial emotion detection API for analyzing facial expressions and recognizing emotions..
 -Deployed as a web-based application, accessible across devices without additional installations.
