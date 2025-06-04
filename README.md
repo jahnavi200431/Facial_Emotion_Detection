@@ -1,0 +1,3 @@
+## 😊 Facial Emotion Detection Using JavaScript
+
+This project focuses on real-time **facial emotion detection** using **JavaScript** and modern browser APIs. Leveraging the power of libraries like **Face API.js**, the system captures live video input from the user's webcam and analyzes facial expressions to classify emotions such as happiness, sadness, anger, surprise, and more. The detection runs entirely in the browser, without the need for server-side processing, making it lightweight and privacy-friendly. This project demonstrates how JavaScript, combined with machine learning models and computer vision, can be used to create engaging applications for user feedback, mental health tracking, interactive games, or educational tools.
